@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f3ae;
+}
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 5em;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #a44200;
+    width: 15em;
+    height: 12em;
+    border-radius: 10px;
+    gap: 3px;
+}
+.botoes label{
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+#valor{
+    width: 9em;
+    border-radius: 1.5px;
+    border: none;
+    text-align: center;
+}
+#quantidade{
+    width: 2.7em;
+    border-radius: 1.5px;
+    border: none;
+    text-align: center;
+}
+.botoes button{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 3px;
+    border-radius: 5px;
+    border: 3px solid #000000;
+    background-color: transparent;
+    text-transform: uppercase;
+    margin-top: 4px
+}
+.botoes button:hover{
+    background-color: #d58936;
+}
+main{
+    display: flex;
+    
+    gap: 15px;
+}
+#lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itens{
+    width: 60vw;
+    height: 100vh;
+    background-color:#d58936;
+    padding-left: 30px;
+    border-radius: 15px;
+}
+#espace{
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+@media only screen and ( max-width: 769px ){
+    h1{
+        font-size: 3em;
+    }
+    
+}

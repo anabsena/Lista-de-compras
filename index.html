@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de compras</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Noto+Sans & display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+    <h1>Sua lista de compras:</h1>
+    <main>
+        <section class="botoes">
+            <label for="valor">Insira o alimento:</label>
+            <input type="text" id="valor" placeholder="Nome do alimento"></input>
+            <label for="quantidade">Quantidade:</label>
+            <input type="number" id="quantidade">
+            <button onclick="adicionar();">adicionar</button>
+            </section>
+        <section id="lista">
+            <div class="itens">
+                <h1>Itens:</h1>
+                <p id="espace"></p>
+            </div>
+        </section>
+    </main>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
